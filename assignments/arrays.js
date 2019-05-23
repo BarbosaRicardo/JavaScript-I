@@ -111,7 +111,7 @@ let BMWAndAudi = [];
 
 function pricyCars() {
     for(let i=0; i < inventory.length; i++) {
-        if(inventory[i].car_make === BMW || inventory[i].car_make === Audi){
+        if(inventory[i].car_make === "BMW" || inventory[i].car_make === "Audi"){
             BMWAndAudi.push(inventory[i].car_make);
         }
     }
