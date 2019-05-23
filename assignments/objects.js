@@ -89,7 +89,7 @@ console.log(kennan.speak());
 
 let antonietta = {
   multiplyNums: function(x,y) {
-    const product = x * y;
+    return x * y;
   }
 }
 console.log(antonietta.multiplyNums(3,4));
